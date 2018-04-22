@@ -1,0 +1,71 @@
+body{
+
+}
+
+h1{
+    font-size: 3em;
+}
+
+#alignement{
+    display: flex;
+}
+
+#center{
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+    article{
+        display: inline-block;
+        width: 49%;
+        text-align: start;
+    }
+        article h3{
+            text-align: center;
+        }
+
+blockquote{
+    border: 3px dashed gray;
+    padding: 5%;
+}
+
+#aboutme{
+    width: 300px;
+    height: auto;
+    padding: 50px 10px 200px 10px;
+    background-color: rgb(139, 151, 163);
+    color: rgb(247, 244, 243);
+  
+}
+    #photo{
+        background: url("images/gokuoncloud.png") 50% 20% no-repeat;
+        background-size: 170%;
+        width: 254px;
+        height: 200px;
+        border: 5px solid rgb(247, 244, 243);
+        border-radius: 100px 20px;
+        overflow: hidden;
+    }
+    #contact{
+        list-style: none;   
+    }
+        #contact li{
+            margin: 20px;
+        }
+            #contact li a {
+                color: rgb(247, 244, 243);
+                text-decoration: unset;
+            }
+
+#poste{
+    position: relative;
+    margin: auto;
+    padding: 20px 30px 20px 0;
+    width: 9%;
+    writing-mode: vertical-lr;
+    font-size: 2.5em;
+    background-color:  rgb(139, 151, 163);
+    color: rgb(247, 244, 243);
+
+}
